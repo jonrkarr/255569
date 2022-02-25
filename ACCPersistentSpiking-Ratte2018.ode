@@ -109,7 +109,7 @@ param I_stim_a=90,t_start1=1100,t_start2=1200,t_start3=1300,t_start4=1400,t_star
 param Idc2_=0,t_startDC2=4000,Idc3_=0,t_startDC3=6000
 
 @ total=100000,dt=.1,xlo=-100,xhi=60,ylo=-.125,yhi=.6,xp=v,yp=w
-@ meth=runge-kutta
+@ meth=rungekutta
 @ MAXSTOR=10000000
 
 done
